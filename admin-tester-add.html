@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestingPro</title>
+    <link rel="stylesheet" href="./assets/css/webfonts/all.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./assets/css/tagify.css">
+    <link rel="stylesheet" href="./assets/css/calendar.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="contains-everything bg">
+
+        <div class="header">
+            <div class="contain">
+                <div class="wrapper">
+                    <div class="left">
+                        <a href="./admin-dashboard.html" class="logo">
+                            <img src="./assets/images/logo.png" alt="TestingPro">
+                        </a>
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="./admin-dashboard.html">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-testers.html">Testers</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-companies.html">Companies</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-disputes.html">Disputes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="profile btn">
+                            <img src="./assets/images/profile.png" alt="Company Name">
+                            <div class="profile_info">
+                                <h4 class="company_name">Admin</h4>
+                                <!-- <p class="wallet_amont">$123.45</p> -->
+                            </div>
+                        </button>
+                        <div class="profile-drop">
+                            <ul>
+                                <li>
+                                    <a href="./profile.html"><i class="fas fa-user"></i>Profile</a>
+                                </li>
+                                <li>
+                                    <a href="./settings.html"><i class="fas fa-cog"></i>Settings</a>
+                                </li>
+                                <li class="var">
+                                    <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-crumbs contain">
+            <a href="#">TestingPro</a>
+            <a href="#">Testers</a>
+            <a href="#" class="active">Add New Tester</a>
+        </div>
+
+        <div class="main p25">
+            <div class="contain">
+                <div class="pdetails mx-auto">
+                    <div class="content-wrap last first">
+                        <div class="wrapper">
+                            <div class="data-wrap">
+                                <h3>Tester Name</h3>
+                                <div class="form-grp lg">
+                                    <input type="text" class="form-control project mb-0" placeholder="Enter Tester Name">
+                                    <h4 class="text-right">
+                                        <span>40</span>  / <span>50</span> max
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="data-wrap" style="margin-bottom: 40px;">
+                                <h3>Tester Email</h3>
+                                <div class="form-grp lg">
+                                    <input type="text" class="form-control project mb-0" placeholder="Enter Tester Email">
+                                </div>
+                            </div>
+                            <div class="data-wrap" style="margin-bottom: 40px;">
+                                <h3>Password</h3>
+                                <div class="form-grp lg">
+                                    <input type="text" class="form-control project mb-0" placeholder="Enter Password">
+                                </div>
+                            </div>
+                            <div class="data-wrap">
+                                <h3>Industry Background</h3>
+                                <div class="form-grp md">
+                                    <select class="selectpicker" title="Any industry" multiple>
+                                        <option>Heathcare</option>
+                                        <option>Heathcare</option>
+                                        <option>Heathcare</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="data-wrap">
+                                <h3>Company size</h3>
+                                <div class="form-grp md">
+                                    <select class="selectpicker" title="Any company size" multiple>
+                                        <option>Any company size</option>
+                                        <option>Any company size</option>
+                                        <option>Any company size</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="data-wrap">
+                                <h3>Job Function</h3>
+                                <div class="form-grp md">
+                                    <select class="selectpicker" title="Any Job Function" multiple>
+                                        <option>Any Job Function</option>
+                                        <option>Any Job Function</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-wrap">
+                    <button class="btn">Cancel</button>
+                    <button class="btn blue">Confirm</button>
+                </div>
+            </div>
+        </div>
+
+        <div style="height: 200px;"></div>
+
+    </div>
+
+    <div class="calendar-modal custom-modal">
+
+        <div class="wrapper max-450">
+            <div class="inner-wrap">
+                <h3 class="modal-title">Select the date(s) you want to assign testing session availability</h3>
+                <div class="calendar-header">
+                    <p>
+                        <span>&nbsp;</span><span id="month"> </span><span>&nbsp;</span><span id="year"> </span><span>&nbsp;</span>
+                    </p>
+                    <div>
+                        <a id="left" href="#"><i class="fa fa-chevron-left"></i></a>
+                        <a id="right" href="#"><i class="fa fa-chevron-right"> </i></a>
+                    </div>
+                </div>
+                <table class="table calendar-table"></table>
+            </div>
+            <div class="inner-wrap bg">
+                <h3 class="modal-sub">Indicate available hours for testing sessions:</h3>
+                <div class="time-wrap">
+                    <div class="time-row mb-3">
+                        <div class="form-grp">
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <p><img src="./assets/images/icons/line.png" alt="line"></p>
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <button class="btn btn-icon">
+                                <img src="./assets/images/icons/trash.png" alt="trash">
+                            </button>
+                        </div>
+                        <button class="btn btn-icon">
+                            <img src="./assets/images/icons/plus-lgt.png" alt="plus button">
+                        </button>
+                    </div>
+                    <div class="time-row mb-3">
+                        <div class="form-grp">
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <p><img src="./assets/images/icons/line.png" alt="line"></p>
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <button class="btn btn-icon">
+                                <img src="./assets/images/icons/trash.png" alt="trash">
+                            </button>
+                        </div>
+                        <div class="full">
+                            <img src="./assets/images/icons/error.png" alt="error">
+                            <p>Overlapping time slots</p>
+                        </div>
+                    </div>
+                    <div class="time-row mb-3">
+                        <div class="form-grp">
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <p><img src="./assets/images/icons/line.png" alt="line"></p>
+                            <select class="selectpicker">
+                                <option>09:00am</option>
+                                <option>09:15am</option>
+                                <option>09:30am</option>
+                                <option>09:45am</option>
+                                <option>10:00am</option>
+                                <option>10:15am</option>
+                                <option>10:30am</option>
+                                <option>10:45am</option>
+                                <option>11:00am</option>
+                            </select>
+                            <button class="btn btn-icon">
+                                <img src="./assets/images/icons/trash.png" alt="trash">
+                            </button>
+                        </div>
+                        <div class="full">
+                            <img src="./assets/images/icons/error.png" alt="error">
+                            <p>Overlapping time slots</p>
+                        </div>
+                    </div>
+                    <div class="time-row">
+                        <h4>No Timeslots</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-wrap footer">
+                <button class="btn" onclick="$('.custom-modal').removeClass('open');">Cancel</button>
+                <button class="btn apply" onclick="$('.custom-modal').removeClass('open');">Apply</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/bootstrap-select.min.js"></script>
+    <script src="./assets/js/functions.js"></script>
+    <script>
+        $('select').selectpicker();
+    </script>
+</body>
+</html>

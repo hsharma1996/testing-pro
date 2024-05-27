@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestingPro</title>
+    <link rel="stylesheet" href="./assets/css/webfonts/all.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="contains-everything bg">
+
+        <div class="header">
+            <div class="contain">
+                <div class="wrapper">
+                    <div class="left">
+                        <a href="./admin-dashboard.html" class="logo">
+                            <img src="./assets/images/logo.png" alt="TestingPro">
+                        </a>
+                        <div class="menu">
+                            <ul>
+                                <li>
+                                    <a href="./admin-dashboard.html">Dashboard</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-testers.html">Testers</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-companies.html">Companies</a>
+                                </li>
+                                <li>
+                                    <a href="./admin-disputes.html">Disputes</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="profile btn">
+                            <img src="./assets/images/profile.png" alt="Company Name">
+                            <div class="profile_info">
+                                <h4 class="company_name">Admin</h4>
+                                <!-- <p class="wallet_amont">$123.45</p> -->
+                            </div>
+                        </button>
+                        <div class="profile-drop">
+                            <ul>
+                                <li>
+                                    <a href="./profile.html"><i class="fas fa-user"></i>Profile</a>
+                                </li>
+                                <li>
+                                    <a href="./settings.html"><i class="fas fa-cog"></i>Settings</a>
+                                </li>
+                                <li class="var">
+                                    <a href="#"><i class="fas fa-sign-out-alt"></i>Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main p25">
+            <div class="contain">
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <h1 class="page_title pb-4">Dashboard</h1>
+                    <div class="session-lmt d-flex align-items-center justify-content-between flex-wrap">
+                        <p class="pr-md-3">10 Session/per week</p>
+                        <button class="btn btn-custom limit-btn">Set Session Limit</button>
+                    </div>
+                </div>
+                <div class="dashboard mb-5">
+                    <div class="inner-wrap bord pt-3">
+                        <div class="dbox py-4">
+                            <h1>Companies</h1>
+                            <p>300</p>
+                        </div>
+                        <div class="dbox py-4">
+                            <h1>Testers</h1>
+                            <p>1289</p>
+                        </div>
+                        <div class="dbox py-4">
+                            <h1>Total Projects</h1>
+                            <p>550</p>
+                        </div>
+                        <div class="dbox py-4">
+                            <h1>Active Projects</h1>
+                            <p>50</p>
+                        </div>
+                    </div>
+                    <div class="inner-wrap pb-3">
+                        <div class="dbox var py-4">
+                            <h1>Total Transations</h1>
+                            <p>$30000</p>
+                        </div>
+                        <div class="dbox var py-4">
+                            <h1>Wallet Balance</h1>
+                            <p>$8000</p>
+                        </div>
+                        <div class="dbox var py-4">
+                            <h1>Profit</h1>
+                            <p>$6000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <h1 class="page_title pb-4">Transaction History</h1>
+                    <div class="range d-flex align-items-center justify-content-end flex-wrap">
+                        <div class="form-grp sm">
+                            <input type="text" class="form-control project" placeholder="Search project title">
+                        </div>
+                        <div class="form-grp sm ml-lg-4">
+                            <input type="text" class="form-control project" id="litepicker" placeholder="Search by date">
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="table-responsive">
+                        <table class="table table-borderless">
+                            <thead>
+                                <tr>
+                                    <th scope="col">
+                                        <div class="wrap">
+                                            Trx Date
+                                            <img src="./assets/images/icons/chevron-up.png" alt="Actions">
+                                        </div>
+                                    </th>
+                                    <th scope="col">Session Date and Time</th>
+                                    <th scope="col">Project Title</th>
+                                    <th scope="col">Earnings</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <p>25 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <p>10:00PM - 11:00PM, 27 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <a href="./tester-projects-details.html" class="text bold"><strong>Beta testing for Analytics / AI SaaS product</strong></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <p>$15.00</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>25 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <p>10:00PM - 11:00PM, 27 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <a href="./tester-projects-details.html" class="text bold"><strong>Beta testing for Analytics / AI SaaS product</strong></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <p>$15.00</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>25 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <p>10:00PM - 11:00PM, 27 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <a href="./tester-projects-details.html" class="text bold"><strong>Beta testing for Analytics / AI SaaS product</strong></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <p>$15.00</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>25 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <p>10:00PM - 11:00PM, 27 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <a href="./tester-projects-details.html" class="text bold"><strong>Beta testing for Analytics / AI SaaS product</strong></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <p>$15.00</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>25 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <p>10:00PM - 11:00PM, 27 Dec 2020</p>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <a href="./tester-projects-details.html" class="text bold"><strong>Beta testing for Analytics / AI SaaS product</strong></a>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="text_wrap">
+                                            <p>$15.00</p>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="text-right">
+                    <a href="./admin-transactions.html" class="btn btn-link">view all</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="custom-modal session-modal">
+
+        <div class="wrapper max-1100 h-unset">
+            <div class="inner_wrapper">
+                <button class="btn close-btn" onclick="$('.custom-modal').removeClass('open')">
+                    <img src="./assets/images/icons/close.png" alt="Close">
+                </button>
+                <div class="confirmation px-4 var">
+                    <div class="cwrap">
+                        <div class="chead">
+                            <h1 class="var">Limit Sessions</h1>
+                            <p class="var">Limit numbers of sessions a tester can book in a time period</p>
+                        </div>
+                        <div class="cbody" style="border: 0;">
+                            <div class="form-grp text-center w-100">
+                                <div class="radio-group w-100">
+                                    <input type="radio" id="weekly" name="session">
+                                    <label for="weekly">Weekly</label>
+                                    <input type="radio" id="Monthly" name="session">
+                                    <label for="Monthly">Monthly</label>
+                                    <input type="radio" id="Yearly" name="session">
+                                    <label for="Yearly">Yearly</label>
+                                </div>
+                            </div>
+                            <div class="form-grp sm mx-auto w-100">
+                                <input type="text" class="form-control project" placeholder="Number of sessions">
+                            </div>
+                        </div>
+                        <div class="btn-grp">
+                            <button class="btn" onclick="$('.custom-modal').removeClass('open')">Cancel</button>
+                            <button class="btn blue" onclick="$('.custom-modal').removeClass('open')">Confirm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/litepicker.js"></script>
+    <script src="./assets/js/functions.js"></script>
+    <script>
+        const picker = new Litepicker({
+            element: document.getElementById('litepicker'),
+            singleMode: false,
+            format: 'DD MMMM, YY'
+        });
+    </script>
+</body>
+</html>

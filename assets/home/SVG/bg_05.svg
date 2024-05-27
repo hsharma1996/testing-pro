@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="908" height="434" viewBox="0 0 908 434">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.052" y1="0.064" x2="0.899" y2="1.565" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_48" data-name="Rectangle 48" width="908" height="434" transform="translate(532 2738)" fill="#2d9cdb"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.039"/>
+    </linearGradient>
+  </defs>
+  <g id="CTA_BG" data-name="CTA BG" transform="translate(-532 -2738)">
+    <rect id="Rectangle_42" data-name="Rectangle 42" width="908" height="434" transform="translate(532 2738)" fill="#2d9cdb"/>
+    <rect id="Rectangle_47" data-name="Rectangle 47" width="908" height="434" transform="translate(532 2738)" opacity="0.2" fill="url(#linear-gradient)" style="mix-blend-mode: overlay;isolation: isolate"/>
+    <g id="Mask_Group_5" data-name="Mask Group 5" clip-path="url(#clip-path)">
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="789" cy="789" r="789" transform="matrix(0.951, -0.309, 0.309, 0.951, -445.198, 1786.431)" fill="url(#linear-gradient-2)" style="mix-blend-mode: overlay;isolation: isolate"/>
+    </g>
+  </g>
+</svg>

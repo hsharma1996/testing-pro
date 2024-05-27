@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TestingPro</title>
+    <link rel="stylesheet" href="./assets/css/webfonts/all.min.css">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="./assets/css/animate.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div class="contains-everything bg">
+
+        <div class="login_page">
+            <div class="contain_var">
+                <div class="wrapper">
+                    <div class="login_box">
+                        <div class="top">
+                            <a href="#" class="logo">
+                                <img src="./assets/images/logo.png" alt="TestingPro">
+                            </a>
+                            <div class="lbox var">
+                                <h2>Email Verification</h2>
+                                <form>
+                                    <div class="userInput py-4">
+                                        <input type="number" id='ist' maxlength="1" onkeyup="clickEvent(this,'sec')">
+                                        <input type="number" id="sec" maxlength="1" onkeyup="clickEvent(this,'third')">
+                                        <input type="number" id="third" maxlength="1" onkeyup="clickEvent(this,'fourth')">
+                                        <input type="number" id="fourth" maxlength="1" onkeyup="clickEvent(this,'fifth')">
+                                    </div>
+                                    <div class="text-right">
+                                        <button class="btn w-100 d-block text-center">Resend OTP</button>
+                                    </div>
+                                    <a href="./signup-details.html" type="submit" class="btn btn-primary mt-4">Verify OTP</a>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <p>
+                                <span>© TestingPro</span>
+                                <span>•</span>
+                                <span><a href="#">Contact</a></span>
+                                <span>•</span>
+                                <span><a href="#">Privacy Policy</a></span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>                        
+            <div class="line line4"></div>                        
+            <div class="line line5"></div>                        
+            <div class="lines">
+                <div class="slines1"></div>
+                <div class="slines2"></div>
+                <div class="slines3"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/bootstrap-select.min.js"></script>
+    <script src="./assets/js/functions.js"></script>
+    <script>
+        function clickEvent(first,last){
+			if(first.value.length){
+				document.getElementById(last).focus();
+			}
+		}
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="464" viewBox="0 0 1440 464">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="BG_biru" data-name="BG biru" width="1440" height="464" rx="55" transform="translate(94 1724)" fill="#2d9cdb"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.229" y1="0.123" x2="0.829" y2="0.535" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.012"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="How_ot_works_BG" data-name="How ot works BG" transform="translate(-94 -1724)">
+    <rect id="BG_biru-2" data-name="BG biru" width="1440" height="464" rx="55" transform="translate(94 1724)" fill="#2d9cdb"/>
+    <g id="Mask_Group_4" data-name="Mask Group 4" clip-path="url(#clip-path)" style="mix-blend-mode: overlay;isolation: isolate">
+      <circle id="Ellipse_6" data-name="Ellipse 6" cx="1192.5" cy="1192.5" r="1192.5" transform="translate(-82 1794)" opacity="0.5" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>
